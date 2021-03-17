@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Header component should contain the correct number of components 1`] = `
+<button
+  aria-label="Button form button"
+  className="govuk-button"
+  id="Button"
+  name="Button"
+  onClick=""
+  type="submit"
+>
+  Button
+</button>
+`;

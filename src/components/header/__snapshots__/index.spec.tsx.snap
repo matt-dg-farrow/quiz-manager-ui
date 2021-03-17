@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Header component should contain the correct number of components 1`] = `
+<div
+  className="quiz-manager-header-container"
+>
+  <header
+    className="quiz-manager-header"
+    data-module="quiz-manager-header"
+    role="banner"
+  >
+    <div
+      className="quiz-manager-header-content-container"
+    >
+      <a
+        aria-current="page"
+        className="quiz-manager-header-link quiz-manager-header-link--homepage"
+        href="/"
+      >
+        Quiz Manager
+      </a>
+    </div>
+  </header>
+</div>
+`;

@@ -1,0 +1,45 @@
+footer {
+  border-top: 1px $border-grey solid;
+  background-color: #fff;
+  font-family: "Inter UI", sans-serif !important;
+  width: 100%;
+
+  .wrapper-footer {
+    padding: 30px 20px;
+    display: flex;
+    max-width: 960px;
+    margin: 0 auto;
+    justify-content: space-between;
+    font-size: 14px;
+    align-items: center;
+
+    p.footer-message {
+      margin-bottom: 0;
+      font-size: 14px;
+    }
+
+    .footer-menu {
+      align-items: flex-end;
+      display: flex;
+    }
+
+    .footer-menu ul {
+      display: flex;
+      margin: 0;
+
+      li {
+        padding-left: 1.5em;
+        list-style: none;
+        font-size: 14px;
+      }
+
+      li a {
+        color: #3b3b3b;
+      }
+
+      li:first-child {
+        padding-left: 0;
+      }
+    }
+  }
+}
