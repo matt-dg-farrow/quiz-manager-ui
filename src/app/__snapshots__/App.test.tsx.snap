@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Header component should contain the correct number of components 1`] = `
+<div
+  className="App"
+>
+  <Header />
+  <LoginPage />
+  <Footer />
+</div>
+`;

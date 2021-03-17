@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Header component should contain the correct number of components 1`] = `
+<footer
+  style={
+    Object {
+      "boxShadow": "none",
+    }
+  }
+>
+  <div
+    className="wrapper-footer"
+  >
+    <div>
+      <p
+        className="footer-message"
+      >
+        WebbiSkools Ltd
+      </p>
+    </div>
+    <div
+      className="footer-menu"
+    >
+      <ul>
+        <li>
+          <a
+            href="#0"
+          >
+            Feedback
+          </a>
+        </li>
+        <li>
+          <a
+            href="#0"
+          >
+            Help
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</footer>
+`;

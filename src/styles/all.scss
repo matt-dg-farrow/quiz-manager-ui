@@ -1,0 +1,16 @@
+// Variables
+$border-grey: #b1b4b6;
+
+// Styles for all elements
+* {
+  font-family: "Inter UI", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@import "./components/button";
+@import "./components/header";
+@import "./components/footer";
+@import "./components/textInput";
+
+@import "./features/loginPage";
