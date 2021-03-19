@@ -1,13 +1,40 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`The Header component should contain the correct number of components 1`] = `
-<div>
-  <TextInput
-    name="Input"
+exports[`The LoginPage component should contain the correct number of components 1`] = `
+<div
+  className="page-content-container"
+>
+  <PageTitle
+    cssClass="quiz-manager-page-title-login"
+    text="Welcome to the WebbiSkools Quiz Manager!"
   />
-  <Button
-    name="Button"
-    type="submit"
-  />
+  <div
+    className="login-page-item"
+  >
+    <Label
+      cssClass="login-page-label"
+      name="username"
+    />
+    <TextInput
+      name="username"
+    />
+  </div>
+  <div
+    className="login-page-item"
+  >
+    <Label
+      cssClass="login-page-label"
+      name="password"
+    />
+    <TextInput
+      name="password"
+    />
+  </div>
+  <Link
+    className="quiz-manager-button-link"
+    to="/quiz"
+  >
+    Login
+  </Link>
 </div>
 `;

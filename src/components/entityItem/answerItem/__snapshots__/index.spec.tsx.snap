@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The QuestionItem component should contain the correct number of components 1`] = `
+<div>
+  <div
+    className="quiz-page-item"
+  >
+    <p
+      className="quiz-manager-entity-text"
+    >
+      Answer 1
+    </p>
+  </div>
+</div>
+`;

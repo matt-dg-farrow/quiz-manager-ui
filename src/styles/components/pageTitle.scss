@@ -1,0 +1,16 @@
+.quiz-manager-page-title-text {
+  padding: 30px 0px;
+  max-width: 960px;
+  color: $black;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.0416666667;
+  display: block;
+  margin-top: 0;
+  margin-bottom: 10px;
+  align-self: center;
+}
+
+.quiz-manager-page-title-login-text {
+  @extend .quiz-manager-page-title-text;
+}

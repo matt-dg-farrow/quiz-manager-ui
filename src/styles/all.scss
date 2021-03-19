@@ -1,16 +1,41 @@
 // Variables
+$black: black;
 $border-grey: #b1b4b6;
+$grey: #bdbfbe;
+$white: white;
+$green: #0ca852;
+$dark-green: #0f753d;
+$red: #db2c04;
+$dark-red: #a62407;
+$yellow: #f5e507;
+$dark-yellow: #d6c90f;
 
 // Styles for all elements
 * {
-  font-family: "Inter UI", sans-serif;
+  font-family: "Inter", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 18px;
 }
 
+// Styles for classes used across multiple pages
+.page-content-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0px auto;
+}
+
+// Fonts
+@import url("https://rsms.me/inter/inter.css");
+
+// Imports
 @import "./components/button";
+@import "./components/entityItem";
 @import "./components/header";
 @import "./components/footer";
 @import "./components/textInput";
+@import "./components/pageTitle";
 
 @import "./features/loginPage";
+@import "./features/quizListPage";

@@ -1,0 +1,60 @@
+.quiz-manager-button {
+  max-width: 120px;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  align-self: center;
+  position: relative;
+  margin-top: 0;
+  margin-right: 10px;
+  margin-left: 0;
+  border: 1px $black solid;
+  color: $black;
+  &:hover {
+    background-color: $grey;
+  }
+}
+
+.quiz-manager-button-submit {
+  @extend .quiz-manager-button;
+  background-color: $green;
+  color: $white;
+  &:hover {
+    background-color: $dark-green;
+  }
+}
+
+.quiz-manager-button-delete {
+  @extend .quiz-manager-button;
+  background-color: $red;
+  color: $white;
+  &:hover {
+    background-color: $dark-red;
+  }
+}
+
+.quiz-manager-button-edit {
+  @extend .quiz-manager-button;
+  background-color: $yellow;
+  color: $black;
+  &:hover {
+    background-color: $dark-yellow;
+  }
+}
+
+.quiz-manager-button-link {
+  @extend .quiz-manager-button;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+.quiz-manager-button-link-edit {
+  @extend .quiz-manager-button-edit;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+.quiz-manager-button-link-delete {
+  @extend .quiz-manager-button-delete;
+  text-decoration: none;
+  padding: 5px 10px;
+}

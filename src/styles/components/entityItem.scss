@@ -1,0 +1,14 @@
+.quiz-manager-entity-title {
+  font-size: 24px;
+  font-weight: 700;
+  padding-right: 30px;
+}
+
+.quiz-manager-entity-text {
+  font-size: 18px;
+}
+
+.quiz-manager-entity-text__bold {
+  @extend .quiz-manager-entity-text;
+  font-weight: 700;
+}

@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The QuizItem component should contain the correct number of components in list view 1`] = `
+<div>
+  <div
+    className="quiz-page-item"
+  >
+    <Link
+      className="quiz-manager-button-link"
+      to="/quiz/1"
+    >
+      View
+    </Link>
+    <h2
+      className="quiz-manager-entity-title"
+    >
+      Quiz 1
+    </h2>
+    <Link
+      className="quiz-manager-button-link-edit"
+      to="#"
+    >
+      Edit
+    </Link>
+    <Link
+      className="quiz-manager-button-link-delete"
+      to="#"
+    >
+      Delete
+    </Link>
+  </div>
+</div>
+`;
+
+exports[`The QuizItem component should contain the correct number of components in single view 1`] = `
+<div>
+  <div
+    className="quiz-page-item"
+  >
+    <Link
+      className="quiz-manager-button-link"
+      to="/quiz/1"
+    >
+      View
+    </Link>
+    <h2
+      className="quiz-manager-entity-title"
+    >
+      Quiz 1
+    </h2>
+    <Link
+      className="quiz-manager-button-link-edit"
+      to="#"
+    >
+      Edit
+    </Link>
+    <Link
+      className="quiz-manager-button-link-delete"
+      to="#"
+    >
+      Delete
+    </Link>
+  </div>
+</div>
+`;

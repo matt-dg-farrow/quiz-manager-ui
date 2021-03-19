@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Label component should contain the correct number of components 1`] = `
+<label
+  aria-label="name label"
+  className="quiz-manager-label"
+  htmlFor="name"
+  id="nameLabel"
+>
+  Name
+</label>
+`;

@@ -3,7 +3,7 @@ import toJson from "enzyme-to-json";
 import React from "react";
 import LoginPage from ".";
 
-describe("The Header component", () => {
+describe("The LoginPage component", () => {
   const wrapper = shallow(<LoginPage />);
 
   it("should contain the correct number of components", () => {
