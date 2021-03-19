@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Router component should contain the correct number of components 1`] = `
+<BrowserRouter>
+  <Route
+    exact={true}
+    path="/"
+    render={[Function]}
+  />
+  <Route
+    exact={true}
+    path="/quiz"
+    render={[Function]}
+  />
+  <Route
+    exact={true}
+    path="/quiz/:quizId"
+    render={[Function]}
+  />
+</BrowserRouter>
+`;

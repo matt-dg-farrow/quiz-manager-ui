@@ -1,16 +1,12 @@
 import React from "react";
 import "./App.css";
-import LoginPage from "../features/loginPage";
-import Header from "../components/header";
-import Footer from "../components/footer";
 import "../styles/all.scss";
+import Router from "../components/router";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <LoginPage />
-      <Footer />
+      <Router />
     </div>
   );
 }

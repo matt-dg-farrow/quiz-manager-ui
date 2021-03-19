@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The QuestionItem component should contain the correct number of components 1`] = `
+<div>
+  <div
+    className="quiz-page-item"
+  >
+    <h2
+      className="quiz-manager-entity-title"
+    >
+      Question 1
+    </h2>
+    <Link
+      className="quiz-manager-button-link-edit"
+      to="#"
+    >
+      Edit
+    </Link>
+    <Link
+      className="quiz-manager-button-link-delete"
+      to="#"
+    >
+      Delete
+    </Link>
+  </div>
+  <div
+    className="quiz-page-item"
+  >
+    <AnswerGroup
+      answerData={
+        Array [
+          Object {
+            "id": 3,
+            "isCorrect": true,
+            "text": "Answer 1",
+          },
+          Object {
+            "id": 4,
+            "isCorrect": true,
+            "text": "Answer 1",
+          },
+          Object {
+            "id": 5,
+            "isCorrect": true,
+            "text": "Answer 1",
+          },
+        ]
+      }
+    />
+  </div>
+</div>
+`;

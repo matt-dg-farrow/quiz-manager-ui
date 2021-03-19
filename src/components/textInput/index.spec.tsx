@@ -3,7 +3,7 @@ import toJson from "enzyme-to-json";
 import React from "react";
 import TextInput from ".";
 
-describe("The Header component", () => {
+describe("The TextInput component", () => {
   const wrapper = shallow(<TextInput name="TextInput" />);
 
   it("should contain the correct number of components", () => {

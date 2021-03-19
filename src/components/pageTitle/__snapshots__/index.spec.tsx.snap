@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The PageTitle component should contain the correct number of components 1`] = `
+<div
+  className="quiz-manager-page-title-text"
+>
+  Title
+</div>
+`;

@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The QuestionGroup component should contain the correct number of components 1`] = `
+<div>
+  <div
+    key="2"
+  >
+    <QuestionItem
+      question={
+        Object {
+          "answers": Array [
+            Object {
+              "id": 3,
+              "isCorrect": true,
+              "text": "Answer 1",
+            },
+            Object {
+              "id": 4,
+              "isCorrect": true,
+              "text": "Answer 1",
+            },
+            Object {
+              "id": 5,
+              "isCorrect": true,
+              "text": "Answer 1",
+            },
+          ],
+          "id": 2,
+          "title": "Question 1",
+        }
+      }
+    />
+  </div>
+</div>
+`;

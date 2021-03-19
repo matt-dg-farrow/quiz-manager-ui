@@ -3,7 +3,7 @@ import toJson from "enzyme-to-json";
 import React from "react";
 import Footer from ".";
 
-describe("The Header component", () => {
+describe("The Footer component", () => {
   const wrapper = shallow(<Footer />);
 
   it("should contain the correct number of components", () => {
